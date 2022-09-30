@@ -1,0 +1,14 @@
+<svg id="_ICON_메뉴" data-name="[ICON] 메뉴" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_48" data-name="사각형 48" width="24" height="24" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="_icon_메뉴-2" data-name="[icon] 메뉴" clip-path="url(#clip-path)">
+    <g id="그룹_7" data-name="그룹 7" transform="translate(2.876 4.373)">
+      <rect id="사각형_45" data-name="사각형 45" width="17.885" height="0.394"/>
+      <rect id="사각형_46" data-name="사각형 46" width="17.885" height="0.394" transform="translate(0 7.248)"/>
+      <rect id="사각형_47" data-name="사각형 47" width="13.158" height="0.394" transform="translate(0 14.497)"/>
+    </g>
+  </g>
+</svg>

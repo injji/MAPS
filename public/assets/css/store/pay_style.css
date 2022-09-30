@@ -1,0 +1,259 @@
+[slider] {
+  position: relative;
+  height: 4px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+[slider]>div {
+  position: absolute;
+  left: 13px;
+  right: 15px;
+  height: 4px;
+}
+
+[slider]>div>[inverse-left] {
+  position: absolute;
+  left: 0;
+  height: 4px;
+  border-radius: 10px;
+  background-color: #CCC;
+}
+
+[slider]>div>[inverse-right] {
+  position: absolute;
+  right: 0;
+  height: 4px;
+  border-radius: 10px;
+  background-color: #CCC;
+  margin: 0 7px;
+}
+
+[slider]>div>[range] {
+  position: absolute;
+  left: 0;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #007c4f;
+}
+
+[slider]>div>[thumb] {
+  position: absolute;
+  top: -3px;
+  z-index: 2;
+  height: 10px;
+  width: 10px;
+  text-align: left;
+  margin-left: -1px;
+  border: 1px solid #007c4f;
+  background-color: #FFF;
+  border-radius: 50%;
+  outline: none;
+}
+
+[slider]>input[type=range] {
+  position: absolute;
+  pointer-events: none;
+  -webkit-appearance: none;
+  z-index: 3;
+  height: 14px;
+  top: -2px;
+  width: 100%;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  opacity: 0;
+}
+
+div[slider]>input[type=range]::-ms-track {
+  -webkit-appearance: none;
+  background: transparent;
+  color: transparent;
+}
+
+div[slider]>input[type=range]::-moz-range-track {
+  -moz-appearance: none;
+  background: transparent;
+  color: transparent;
+}
+
+div[slider]>input[type=range]:focus::-webkit-slider-runnable-track {
+  background: transparent;
+  border: transparent;
+}
+
+div[slider]>input[type=range]:focus {
+  outline: none;
+}
+
+div[slider]>input[type=range]::-ms-thumb {
+  pointer-events: all;
+  width: 28px;
+  height: 28px;
+  border-radius: 0px;
+  border: 0 none;
+  background: red;
+}
+
+div[slider]>input[type=range]::-moz-range-thumb {
+  pointer-events: all;
+  width: 28px;
+  height: 28px;
+  border-radius: 0px;
+  border: 0 none;
+  background: red;
+}
+
+div[slider]>input[type=range]::-webkit-slider-thumb {
+  pointer-events: all;
+  width: 28px;
+  height: 28px;
+  border-radius: 0px;
+  border: 0 none;
+  background: red;
+  -webkit-appearance: none;
+}
+
+div[slider]>input[type=range]::-ms-fill-lower {
+  background: transparent;
+  border: 0 none;
+}
+
+div[slider]>input[type=range]::-ms-fill-upper {
+  background: transparent;
+  border: 0 none;
+}
+
+div[slider]>input[type=range]::-ms-tooltip {
+  display: none;
+}
+
+[slider]>div>[sign] {
+  position: absolute;
+  margin-left: -43px;
+  top: -50px;
+  z-index: 3;
+  background-color: #007c4f;
+  color: #fff;
+  width: 88px;
+  height: 34px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+[slider]>div>[sign]:after {
+  position: absolute;
+  content: '';
+  left: 50%;
+  border-radius: 16px;
+  top: 27px;
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  border-top-width: 16px;
+  border-top-style: solid;
+  border-top-color: #007c4f;
+  margin-left: -14px;
+}
+
+
+
+
+@media (min-width: 1400px) {
+  [slider] {
+    margin: 45px 0 10px 0;
+  }
+
+  [slider]>div>[inverse-left] {
+    margin: 0 7px;
+  }
+
+  [slider]>div>[sign]>span {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 1400px) and (min-width: 768px) {
+  [slider] {
+    margin: 45px 0 10px 11px;
+    width: calc(100% - 11px);
+  }
+
+
+
+  [slider]>div>[sign]>span {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 32px;
+  }
+
+  [slider]>div>[sign] {
+    width: 75px;
+    margin-left: -36px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  [slider]>div>[sign] {
+    width: 55px;
+    height: 20px;
+    display: flex;
+    margin-left: -27px;
+  top: -32px;
+  }
+
+  [slider]>div>[sign]:after {
+    top: 20px;
+    border-top-width: 13px;
+    margin-left: -14px;
+  }
+
+
+  
+  [slider]>div>[inverse-right] {
+    margin: 0 7px;
+  }
+
+  [slider]>div {
+    right: -5px;
+  }
+
+
+  [slider]>div>[sign] {
+    background: #fff;
+    border: 1px solid #007c4f;
+    color:#007c4f;
+  }
+  [slider]>div>[sign]:after, [slider]>div>[sign]:before {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+  
+  [slider]>div>[sign]:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-top-color: #fff;
+    border-width: 5px;
+    margin-left: -5px;
+  }
+  [slider]>div>[sign]:before {
+    border-color: rgba(0, 124, 79, 0);
+    border-top-color: #007c4f;
+    border-width: 6px;
+    margin-left: -6px;
+  }
+  
+}

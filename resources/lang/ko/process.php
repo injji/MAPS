@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'all' => '전체',
+    'wait_registration' => '등록대기',
+    'review' => '심사중',
+    'reject' => '심사거절',
+    'sale' => '판매중',
+    'sale_stop' => '판매중지',
+    'apply' => '신청완료',
+    'setting' => '설정대기',
+    'effective' => '진행중',
+    'expired' => '만료',
+    'new' => '신규',
+    'extension' => '연장',
+    'finished' => '완료',
+    'receipt' => '접수',
+    'progress' => '처리중',
+    'hold' => '보류',
+    'refund' => '환불처리',
+    'wait_request' => '신청대기',
+    'using' => '사용중',
+    'stop' => '중지',
+    'dell' => '삭제',
+];

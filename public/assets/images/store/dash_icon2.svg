@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="78" height="78" viewBox="0 0 78 78">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_124" data-name="사각형 124" width="46" height="46" transform="translate(0 0)" fill="none" stroke="#01281a" stroke-width="0.8"/>
+    </clipPath>
+  </defs>
+  <g id="아이콘" transform="translate(-1404 -148)">
+    <circle id="타원_12" data-name="타원 12" cx="39" cy="39" r="39" transform="translate(1404 148)" fill="#007c4f" opacity="0.05"/>
+    <g id="그룹_51" data-name="그룹 51" transform="translate(709.434 65.113)" opacity="0.6">
+      <g id="그룹_50" data-name="그룹 50" transform="translate(710.566 98.887)" clip-path="url(#clip-path)">
+        <g id="그룹_49" data-name="그룹 49" transform="translate(6.787 6.787)">
+          <path id="패스_83" data-name="패스 83" d="M837.111,143.96" transform="translate(-821.071 -142.616)" fill="none" stroke="#01281a" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.8"/>
+          <path id="패스_84" data-name="패스 84" d="M756.132,157.32a14.864,14.864,0,0,1,14.489-13.349" transform="translate(-754.7 -142.625)" fill="none" stroke="#01281a" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.8"/>
+          <path id="패스_85" data-name="패스 85" d="M769.057,241.75A14.864,14.864,0,0,1,755.716,227.1" transform="translate(-754.359 -210.761)" fill="none" stroke="#01281a" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.8"/>
+          <path id="패스_86" data-name="패스 86" d="M853.438,234.65a14.864,14.864,0,0,1-14.665,13.362" transform="translate(-822.433 -216.947)" fill="none" stroke="#01281a" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.8"/>
+          <path id="패스_87" data-name="패스 87" d="M846.442,144.372A14.863,14.863,0,0,1,859.8,159.035" transform="translate(-828.718 -142.954)" fill="none" stroke="#01281a" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.8"/>
+          <path id="패스_88" data-name="패스 88" d="M778.376,175.747A10.851,10.851,0,0,1,789,166.235" transform="translate(-772.931 -160.873)" fill="none" stroke="#01281a" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.8"/>
+          <path id="패스_89" data-name="패스 89" d="M787.43,237.714a10.851,10.851,0,0,1-9.5-10.64" transform="translate(-772.564 -210.737)" fill="none" stroke="#01281a" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.8"/>
+          <path id="패스_90" data-name="패스 90" d="M849.391,233.726a10.851,10.851,0,0,1-10.646,9.521" transform="translate(-822.41 -216.189)" fill="none" stroke="#01281a" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.8"/>
+          <path id="패스_91" data-name="패스 91" d="M845.477,166.682a10.851,10.851,0,0,1,9.511,10.641" transform="translate(-827.927 -161.24)" fill="none" stroke="#01281a" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.8"/>
+          <path id="패스_92" data-name="패스 92" d="M837.364,141.92v1.314l3.787-3.361-3.787-3.361v1.314" transform="translate(-821.278 -136.512)" fill="none" stroke="#01281a" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.8"/>
+          <path id="패스_93" data-name="패스 93" d="M821.563,284.4v1.314l-3.787-3.361L821.563,279v1.314" transform="translate(-805.224 -253.293)" fill="none" stroke="#01281a" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.8"/>
+          <path id="패스_94" data-name="패스 94" d="M891.989,225.685h-1.314l3.361,3.787,3.361-3.787h-1.314" transform="translate(-864.972 -209.599)" fill="none" stroke="#01281a" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.8"/>
+          <path id="패스_95" data-name="패스 95" d="M749.505,209.884h-1.314l3.361-3.787,3.361,3.787H753.6" transform="translate(-748.191 -193.545)" fill="none" stroke="#01281a" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.8"/>
+        </g>
+        <path id="패스_96" data-name="패스 96" d="M838.066,226.387" transform="translate(-815.066 -203.387)" fill="none" stroke="#01281a" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.8"/>
+        <path id="패스_97" data-name="패스 97" d="M838.066,226.387" transform="translate(-815.066 -203.387)" fill="none" stroke="#01281a" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.8"/>
+        <path id="패스_98" data-name="패스 98" d="M838.066,226.387" transform="translate(-815.066 -203.387)" fill="none" stroke="#01281a" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.8"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<?php
+Route::get('/', 'FrontController');
+Route::get('login', 'Auth\UserLoginController')->name('login');
+Route::post('login', 'Auth\UserLoginController@login')->name('plogin');
+Route::get('logout', 'Auth\UserLoginController@logout')->name('logout');
+Route::get('register/agree/{type}', 'Auth\UserRegisterController@agree')->name('register.agree');
+Route::post('register/get/term', 'Auth\UserRegisterController@get_term')->name('register.get.term');
+Route::get('register/register1', 'Auth\UserRegisterController@register1')->name('register.register1');
+Route::get('register/register2', 'Auth\UserRegisterController@register2')->name('register.register2');
+Route::view('register/register3', 'auth.register3')->name('register.register3');
+Route::get('register/register3/{app_id}', 'Auth\UserRegisterController@register3_byapps')->name('register.register3.appid');
+Route::post('register/client_save', 'Auth\UserRegisterController@client_save')->name('register.client.save');
+Route::post('register/agent_save', 'Auth\UserRegisterController@agent_save')->name('register.agent.save');
+Route::post('register/byapps', 'Auth\UserRegisterController@byapps')->name('register.byapps');
+Route::get('register/done/{account}', 'Auth\UserRegisterController@done')->name('register.done');
+Route::view('password/reset', 'auth.reset_password')->name('password.reset');
+Route::post('login/check_account', 'Auth\UserLoginController@check_account')->name('login.check.account');
+Route::get('login/find_account/{account}', 'Auth\UserLoginController@find_account')->name('login.find.account');
+Route::post('login/reset_pw', 'Auth\UserLoginController@reset_pw')->name('login.reset.pw');
+Route::get('login/find_pw/{phone}', 'Auth\UserLoginController@find_pw')->name('login.find.pw');
